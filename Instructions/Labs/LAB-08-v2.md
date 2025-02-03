@@ -542,7 +542,9 @@ In this task, you will connect the IoT edge device to the IoT Edge Gateway.
 
     > **Information**: You can learn more about the **X509Store** class [here](https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.x509certificates.x509store?view=netcore-3.1).
 
-1. On the **Terminal** menu, click **New Terminal**.
+1. Open **New terminal** in **Visual Studio Code** by selecting **Three dots(...) -> Terminal -> New Terminal**.
+
+    ![](./media2/lab09img3.png)
 
 1. At the TERMINAL command prompt, enter the following command:
 
