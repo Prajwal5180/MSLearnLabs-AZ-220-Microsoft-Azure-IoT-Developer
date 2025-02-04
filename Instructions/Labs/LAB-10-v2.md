@@ -1,7 +1,5 @@
 # Lab 10: Remotely monitor and control devices with Azure IoT Hub
 
-### Estimated Duration: 120 minutes
-
 ## Lab Overview
 
 In this lab, you will set up and configure a simulated IoT environment using Azure IoT Hub. You will start by preparing your environment and reviewing the code for sending and receiving telemetry data. Next, you’ll complete a backend application to receive this telemetry and implement functionality to invoke a direct method for controlling a simulated fan. Finally, you'll enable and test Device Twin functionality to synchronize device properties and settings. This exercise includes working with Visual Studio Code to manage code and configurations, running applications, and verifying functionality through terminal outputs.
@@ -31,6 +29,8 @@ In this lab, you will complete the following:
 - Exercise 3: Complete a Second App to Receive Telemetry
 - Exercise 4: Include Code to Invoke a Direct Method
 - Exercise 5: Implement the Device Twin functionality
+
+## Estimated Duration: 120 minutes
 
 ## Architecture Diagram
 
