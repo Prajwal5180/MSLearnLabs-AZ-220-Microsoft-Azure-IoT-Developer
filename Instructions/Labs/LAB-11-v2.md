@@ -52,7 +52,7 @@ In this task, you'll set up your Azure IoT environment by accessing your resourc
 
    ![](./media/iot2.png)
 
-1. Copy the **primary connection string** and paste it into a notepad.
+1. Copy the **Primary connection string** and paste it into a notepad.
 
    ![](./media/iot3.png)
 
@@ -68,7 +68,7 @@ In this task, you'll review code for a simulated device that supports firmware u
 
       ![](./media/open.png)
 
-1. Navigate to `C:\LabFiles\az-220\MSLearnLabs-AZ-220-Microsoft-Azure-IoT-Developer-stage-rowancollege\Allfiles\Labs\16-Automate IoT Device Management with Azure IoT Hub\Final` and select the **fwupdatedevice** folder.
+1. Navigate to `C:\LabFiles\az-220\MSLearnLabs-AZ-220-Microsoft-Azure-IoT-Developer-stage-rowancollege\Allfiles\Labs\16-Automate IoT Device Management with Azure IoT Hub\Final` and select the **fwupdatedevice** folder. Then, click on **Select Folder**.
 
 1. Click on **Yes, I trust the authors** when prompted.
 
@@ -76,12 +76,12 @@ In this task, you'll review code for a simulated device that supports firmware u
 
 1. You should see the following files listed in the EXPLORER pane of Visual Studio Code:
 
-   - FWUpdateDevice.csproj
+   - fwupdatedevice.csproj
    - Program.cs
 
       ![](./media/az11-81.png)
 
-1. In the EXPLORER pane, to open the project file, click **FWUpdateDevice.csproj**. Notice the referenced NuGet packages:
+1. In the EXPLORER pane, to open the project file, click **fwupdatedevice.csproj**. Notice the referenced NuGet packages:
 
       - Microsoft.Azure.Devices.Client - Device SDK for Azure IoT Hub
       - Microsoft.Azure.Devices.Shared - Common code for Azure IoT Device and Service SDKs
@@ -89,7 +89,7 @@ In this task, you'll review code for a simulated device that supports firmware u
 
            ![](./media/az22022.png)
 
-1. Navigate to **Program.cs** and at the top of the code file, locate the code comment line that begins with **The device connection string**.
+1. Navigate to **Program.cs** and at the top of the code file, locate the code comment line that begins with **The device connection string**. Click **CTRL+S** to save the file.
    
       > **Note**: You will supply the device connection string value as a parameter when you enter the command to run the app later in this lab.
 
@@ -97,13 +97,13 @@ In this task, you'll review code for a simulated device that supports firmware u
 
 ### Task 3: Test firmware update on a single device
 
-In this task, you'll test a firmware update by running the `FWUpdateDevice` app with your device connection string. After observing the initial firmware version, create a firmware update configuration in the Azure portal. Then, monitor the terminal for progress on the firmware update.
+In this task, you'll test a firmware update by running the `fwupdatedevice` app with your device connection string. After observing the initial firmware version, create a firmware update configuration in the Azure portal. Then, monitor the terminal for progress on the firmware update.
 
 1. In Vs code, click on **Terminal (1)** and click on **New Terminal (2)**. The folder location shown within the command prompt should show the FWUpdateDevice project folder.
 
       ![](./media/az25.png)
 
-1. To run the FWUpdateDevice app, enter the following command:
+1. To run the fwupdatedevice app, enter the following command:
 
       ``` bash
       dotnet run "<your device connection string>"
@@ -122,7 +122,7 @@ In this task, you'll test a firmware update by running the `FWUpdateDevice` app 
     
       ![](./media/automate.png)
 
-1. Navigate back to `portal.azure.com`.
+1. Navigate back to Azure portal.
 
 1. Open **iot-az220-training-<inject key="DeploymentID" enableCopy="false"></inject>**, click on **Devices (1)** under the Device management tab in the left pane and select **sensor-th-0155 (2)**.
 
