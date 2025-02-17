@@ -534,4 +534,4 @@ Now that the tempSensor module is deployed and running on the IoT Edge device, w
 ## Summary
 In this lab, you have configured the Lab Prerequisites , created and configured an IoT Edge VM, added Edge Module to Edge Device and deployed Azure Stream Analytics as IoT Edge Module.
 
-### You have successfully completed the lab
+### You have successfully completed the lab!

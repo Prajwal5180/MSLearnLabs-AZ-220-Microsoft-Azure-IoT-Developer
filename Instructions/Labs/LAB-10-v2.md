@@ -386,4 +386,4 @@ To test the code that manages the device twin desired property changes, you will
 ## Summary
 In this lab, you have configured the Lab Prerequisites, reviewed Code to Send and Receive Telemetry, completed a Second App to Receive Telemetry, included Code to Invoke a Direct Method and implemented the Device Twin functionality.
 
-### You have successfully completed the lab
+### You have successfully completed the lab!

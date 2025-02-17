@@ -481,4 +481,4 @@ In this task, you will configure the IoT edge device and set the IoT Edge Module
 
 In this lab, you have deployed an azure container registry and docker desktop to manage the container which is built using .NET Simulator project. You have used the build commands to build the image from the project. You have pushed the image to registry and created a IoT Edge Device and added the Docker Image as module to it.
 
-### You have successfully completed the Lab
+### You have successfully completed the Lab!

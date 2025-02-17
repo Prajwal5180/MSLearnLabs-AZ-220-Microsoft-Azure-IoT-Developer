@@ -258,19 +258,7 @@ In this task, you will get a quick introduction to working with time series data
 
     ![](./media2/lab06img21.png)
 
-1. In the Azure Data Explorer page, select **Databases** under **Data** from left hand menu. Click on **streamingdata** database.
-
-    ![](./media2/lab06img24.png)
-
-1. In the **streamingdata** page select **Data connections** from left menu, under **Settings**. Select the **Health(symbol)** as shown.
-
-    ![](./media2/lab06img25.png)
-
-1. Check the Graph, observe the **Events received** and **Events processed** data.
-
-    ![](./media2/lab06img26.png)
-
-1. Navigate back to Azure Data Explorer pane and select **Query** and run the following query to visualize the data that is streamed.
+1. Select **Query** and run the following query to visualize the data that is streamed.
 
     ```
     Telemetry
@@ -290,4 +278,4 @@ In this task, you will get a quick introduction to working with time series data
 
 In this lab, you started by noting the connection strings of pre-deployed IoT devices. You then created an Azure Data Explorer cluster and set up a database to store and query data. After connecting the database to the IoT Hub, you ran a simulator to generate IoT data, which was ingested into Azure Data Explorer. Finally, you visualized the data to analyze and gain insights, showcasing how Azure services can be used to build an effective IoT data pipeline.
 
-## You have successfully completed the lab
+## You have successfully completed the lab!

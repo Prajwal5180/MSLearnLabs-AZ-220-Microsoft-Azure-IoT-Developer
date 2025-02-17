@@ -642,4 +642,4 @@ In this task, you will use the Azure CLI to monitor the events being sent to Azu
 
 In this lab, you have created a Linux based Virtual Machine as an IoT Edge Device. and you have connected to that VM and check regarding IoT edge modules and download CA certificate and created a downstream device.
 
-## You have successfully completed this Lab
+## You have successfully completed this Lab!

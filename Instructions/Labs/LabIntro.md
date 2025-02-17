@@ -10,37 +10,43 @@ This hands-on lab will guide you through setting up Azure IoT services by starti
  
 Once you're ready to dive in, your virtual machine and **Lab Guide** will be right at your fingertips within your web browser.
  
-   ![](./media/labguide.png)
+   ![](./media/new-az220-getting-started-1.png)
 
 ### Virtual Machine & Lab Guide
  
 In the integrated environment, the lab VM serves as the designated workspace, while the lab guide is accessible on the right side of the screen.
 
 **Note:** Kindly ensure that you are following the instructions carefully to ensure the lab runs smoothly and provides an optimal user experience.
+
+## Lab Guide Zoom In/Zoom Out
  
+To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
+
+   ![](./media/zoomin-1.png)
+
 ## Exploring Your Lab Resources
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
  
-   ![](./media//env.png)
+   ![](./media/new-az220-getting-started-2.png)
  
 ## Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the top right corner.
  
-   ![](./media/spl.png)
+   ![](./media/new-az220-getting-started-4.png)
  
 ## Managing Your Virtual Machine
  
 Feel free to **start**, **stop**, or **restart** your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
-   ![](./media/res.png)
+   ![](./media/new-az220-getting-started-3.png)
  
 ## Lab Duration Extension
 
 1. To extend the duration of the lab, kindly click the **Hourglass** icon in the top right corner of the lab environment. 
 
-    ![](./media//gext.png)
+    ![](./media/az-220-extension.png)
 
     >**Note:** You will get the **Hourglass** icon when 15 minutes are remaining in the lab.
 

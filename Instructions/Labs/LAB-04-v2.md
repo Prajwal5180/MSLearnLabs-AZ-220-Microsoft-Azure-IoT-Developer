@@ -513,4 +513,4 @@ Now for the fun part. Is the telemetry from your device app being processed thro
 
 In this lab, you began by writing code to generate vibration telemetry data. Next, you created a message route to direct this data to Azure Blob Storage. Finally, you set up an Azure Stream Analytics job to process and analyze the incoming telemetry data in real time.
 
-## You have successfully completed the Lab
+## You have successfully completed the Lab!

@@ -317,4 +317,4 @@ In this task, you will test your Logic App by creating a new device to trigger a
 
 In this lab, you have created an Azure Logic App to automatically send emails based on IoT events. You have configured an Azure IoT Hub event subscription to trigger the Logic App and set up new IoT devices to generate events that activate the workflow.
 
-## You have successfully completed the lab
+## You have successfully completed the lab!
