@@ -1,5 +1,7 @@
 # Lab 06: Explore and analyze time stamped data with Azure Data Explorer
 
+### Estimated Duration: 120 minutes
+
 ## Lab Overview
 
 In this lab, you will explore how to set up Azure Data Explorer and integrate it with IoT Hub to analyze IoT telemetry data. First, you configure Azure Data Explorer to create a cluster and database, define a table schema, and set up streaming ingestion from IoT Hub. Next, you run simulated IoT devices that send telemetry data (like temperature and humidity) to the IoT Hub, simulating different transportation methods (truck, airplane, container). Finally, you visualize the collected data using Azure Data Explorer queries, generating charts and histograms to analyze the incoming telemetry.
@@ -23,8 +25,6 @@ In this lab, you will complete the following activities:
  - Task 1: Setup Azure Data Explorer
  - Task 2: Run Simulated IoT Devices
  - Task 3: Visualize Data using Azure Data Explorer Queries
-
-## Estimated Duration: 120 minutes
 
 ## Architecture Diagram
 
@@ -69,7 +69,7 @@ Azure Data Explorer is an end-to-end platform-as-a-service offering used to coll
 
 1. On the **Configurations** **(1)** tab, select **on** **(2)** for **Streaming ingestion** and click on **Review + create**. Click on **Create** on the next pane.
 
-   ![](./media2/new-az220-lab6-1.png)
+   ![](./media2/lab06img2.png)
    
       >**Note**: This may take 10 to 15 minutes to get deployed.
 
@@ -77,7 +77,7 @@ Azure Data Explorer is an end-to-end platform-as-a-service offering used to coll
 
    ![](./media2/lab10img6.png)
 
-1. Click on the **Go to resource** after deployment gets succeeded. On the **Azure Data Explorer Database**, provide the database name as **streamingdata** and click on **Create**. 
+1. On the **Azure Data Explorer Database**, provide the database name as **streamingdata** and click on **Create**. 
 
    ![](./media2/lab06img3.png)
 
@@ -127,7 +127,7 @@ Azure Data Explorer is an end-to-end platform-as-a-service offering used to coll
 
    ![](./media2/lab06img8.png)
 
-1. In the **streamingdata** page, select **Data connections** under **Settings**.
+1. In the **streamingdata** page, select **Data connection** under **Settings**.
 
    ![](./media2/lab06img9.png)
 
@@ -143,7 +143,7 @@ Azure Data Explorer is an end-to-end platform-as-a-service offering used to coll
 
    ![](./media2/lab06img11.png)
 
-1. In the **Create data connection** page, provide the following details then click on **Create** **(9)**:
+1. In the **create data connection** page, provide the following details then click on **Create** **(9)**:
 
     | Setting | Value |
     | --- | --- |
@@ -179,7 +179,7 @@ In this task, you will run the simulated devices so that they start sending tele
 
     ![](./media2/lab06img18.png)
 
-1. In the IoT Hub pane, select **Devices** from the left menu under **Device management**. Select the device **sensor-thl-container0001**.
+1. In the IoT Hub pane, select **Devices** from the left menu under **Device management**. select the device **sensor-thl-container0001**.
 
     ![](./media2/lab06img19.png)
 
@@ -215,7 +215,7 @@ In this task, you will run the simulated devices so that they start sending tele
 
     ![](./media2/lab06img3v2.png)
 
-1. Open **New terminal** in **Visual Studio Code** by selecting **Three dots(...) -> Terminal -> New Terminal**.
+1. Open **New terminal** in **Visual Studio Code**
 
     ![](./media2/lab09img3.png)
 
@@ -278,4 +278,4 @@ In this task, you will get a quick introduction to working with time series data
 
 In this lab, you started by noting the connection strings of pre-deployed IoT devices. You then created an Azure Data Explorer cluster and set up a database to store and query data. After connecting the database to the IoT Hub, you ran a simulator to generate IoT data, which was ingested into Azure Data Explorer. Finally, you visualized the data to analyze and gain insights, showcasing how Azure services can be used to build an effective IoT data pipeline.
 
-## You have successfully completed the lab!
+## You have successfully completed the lab
